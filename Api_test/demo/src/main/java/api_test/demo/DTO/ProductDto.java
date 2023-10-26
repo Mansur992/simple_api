@@ -1,0 +1,10 @@
+package api_test.demo.DTO;
+
+import lombok.Data;
+
+@Data
+public class ProductDto {
+    private String name;
+    private Short amount;
+    private Long categoryId;
+}
